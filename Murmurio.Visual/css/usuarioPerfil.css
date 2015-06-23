@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*@import "reset.css";*/
+
+
+/* CSS Document */
+
+
+/*
+	----------------------------
+	HTML SELECTORS
+	____________________________
+*/
+
+
+/*
+	----------------------------
+	LAYOUT
+	____________________________
+*/
+
+#UsuarioPerfil
+{
+    height:295px;
+    width:1000px;    
+}
+
+#Mural
+{
+    position:absolute;
+    left: 350px;
+    top: 1px;
+    height: 285px;
+}
+
+#listMural
+{
+    position:absolute;
+    width:277px;
+    height:280px;
+    left:5px;
+    top:1px;
+    border: 0px solid #DDD; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #ffffff;
+    float: left; 
+    padding: 5px 10px;
+    scroll-arrow-color: #FF0000;
+    scroll-face-color: Transparent;
+}
+
+#MsgUsuario
+{
+    position:absolute;
+    width:277px;
+    height:280px;
+    left:5px;
+    top:1px;
+    border: 0px solid #DDD; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #ffffff;
+    float: left; 
+    padding: 5px 10px;
+    scroll-arrow-color: #FF0000;
+    scroll-face-color: Transparent;
+    
+    
+}
+
+#ContainerAmigos
+{
+    position:absolute;
+    left: 650px;
+    top: 1px; 
+}
+
+#Amigos
+{
+    position:absolute;
+    width:177px;
+    
+    left:5px;
+    top:1px;
+    border: 0px solid #DDD; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: Transparent;
+    float: left; 
+    padding: 5px 10px;
+    scroll-arrow-color: #FF0000;
+    scroll-face-color: Transparent;
+}
+
+
+
+#ContainerPedidosAmizade
+{
+    position:absolute;
+    left: 650px;
+    top: 150px; 
+}
+
+#PedidosAmizade
+{
+    position:absolute;
+    width:100px;
+    
+    left:5px;
+    top:1px;
+    border: 0px solid #DDD; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: Transparent;
+    float: left; 
+    padding: 5px 10px;
+    scroll-arrow-color: #FF0000;
+    scroll-face-color: Transparent;
+}
+
+
+
+#LblNomeUsuario
+{
+    position:absolute;
+    left:90px;
+    top: 3px;
+}
+
+#btnVideos
+{
+    position:absolute;
+    left:90px;
+    height:20px;
+}
+
+#btnAdd
+{
+    position:absolute;
+    left:160px;
+    height:20px;    
+}
+
+#ddlAlbuns
+{
+    position:absolute;
+    left:90px;
+    height:20px;
+    background-color:transparent;
+}
+#txtMurmurar
+{
+    position:absolute;
+    width:270px;
+    height:80px;
+    left:5px;
+    top:160px;
+    border: 0px solid #DDD; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #FFFFFF; 
+    float: left; 
+    padding: 5px 10px;
+}
+
+#btnMurmurar
+{
+    position:absolute;
+    left:5px;
+    height:20px;
+    top:265px;
+}
+
+#lblDescricao
+{
+    position:Absolute;
+    height:68px;
+    width:270px;
+    top:90px;
+    left: 0px;
+}
+
+/*
+	----------------------------
+	PAGE/SECTION SPECIFIC
+	____________________________
+*/
+
+
+/*
+	----------------------------
+	UTILITY CLASSES
+	____________________________
+*/

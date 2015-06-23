@@ -1,0 +1,7 @@
+C:\PROJETOS\Murmurio\Murmurio.Visual\bin\Murmurio.Visual.dll
+C:\PROJETOS\Murmurio\Murmurio.Visual\bin\Murmurio.Visual.pdb
+C:\PROJETOS\Murmurio\Murmurio.Visual\obj\Debug\Murmurio.Visual.dll
+C:\PROJETOS\Murmurio\Murmurio.Visual\obj\Debug\Murmurio.Visual.pdb
+C:\PROJETOS\Murmurio\Murmurio.Visual\obj\Debug\Murmurio.Visual.csprojResolveAssemblyReference.cache
+C:\PROJETOS\Murmurio\Murmurio.Visual\bin\Murmurio.Data.dll
+C:\PROJETOS\Murmurio\Murmurio.Visual\bin\Murmurio.Data.pdb

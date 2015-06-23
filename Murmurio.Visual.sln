@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murmurio.Visual", "Murmurio.Visual\Murmurio.Visual.csproj", "{B8FA15CE-34E5-49CF-AEA5-44D00E42820B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murmurio.Modelo", "Murmurio.Modelo\Murmurio.Modelo.csproj", "{32268472-93C5-4C4B-A577-A5F424051518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murmurio.Data", "Murmurio.Data\Murmurio.Data.csproj", "{892AD8FF-2136-4BDD-8F58-159166C7618A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8FA15CE-34E5-49CF-AEA5-44D00E42820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FA15CE-34E5-49CF-AEA5-44D00E42820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FA15CE-34E5-49CF-AEA5-44D00E42820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FA15CE-34E5-49CF-AEA5-44D00E42820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32268472-93C5-4C4B-A577-A5F424051518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32268472-93C5-4C4B-A577-A5F424051518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32268472-93C5-4C4B-A577-A5F424051518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32268472-93C5-4C4B-A577-A5F424051518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892AD8FF-2136-4BDD-8F58-159166C7618A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892AD8FF-2136-4BDD-8F58-159166C7618A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892AD8FF-2136-4BDD-8F58-159166C7618A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892AD8FF-2136-4BDD-8F58-159166C7618A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

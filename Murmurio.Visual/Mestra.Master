@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mestra.master.cs" Inherits="Murmurio.Visual.Mestra"
+    Debug="True" ClientIDMode="Inherit" %>
+
+<%@ Register Src="Logon.ascx" TagName="Logon" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>M u r m ú r i o</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </link>
+    <link rel="icon" type="image/png" href="/media/layout/favicon.png"></link>
+    <link href="css/screen.css" rel="stylesheet" type="text/css"></link>
+    <script src="jquery-2.0.2.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    <script type="text/javascript">
+
+        function myFunction() {
+            //alert("Hello World!");
+            $("#ConteudoPrincipal").load('../testes/Perfil.aspx');
+            $("#ConteudoPrincipal")
+                       .text("Logon");
+        };
+
+
+        function ChamaPerfil() {
+            //alert("Hello World!");
+            $("#ConteudoPrincipal").load('../testes/Perfil.aspx');
+            $("#ConteudoPrincipal")
+                       .text("Perfil");
+        };
+
+        function ChamaUsuario() {
+            //alert("Hello World!");
+            //Response.Redirect("Usuario.aspx?Id=" +  Session["UsuarioID"].ToString());
+           
+            //$("#ConteudoPrincipal").load('Usuario.aspx?Id=2');
+         
+        };
+
+//        function ChamaLogon() {
+//            //alert("Hello World!");
+//            $("#ConteudoPrincipal").load('../testes/Logon.aspx');
+//            $("#ConteudoPrincipal")
+//                       .text("Logon");
+//        };
+
+        function CortaCabeca() {
+            $("#CortaCabeca")
+                .hide();
+        };
+
+        function TunelMaster(info) {
+            $("#myLabel").val(info);
+            TunelIndex(info);
+        }
+        
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+
+    <asp:HiddenField ID="hdnVideos" runat="server" />
+    <asp:HiddenField ID="qtdVideos" runat="server" />
+    <asp:Label ID="myLabel" runat="server" Text=""></asp:Label>
+
+    <div id="wrapper" class="clearfix">
+        <div class="geral">
+            <div id="Cabeca">
+                
+<%--                <a href="#">
+                    <img src="media/Murmurio.gif" alt="somno" id="logo" /></a>--%>
+                    <%--<asp:ImageButton ID="ImageButton1" runat="server" src="media/Murmurio.gif" OnClientClick="ChamaPerfil()" />--%>
+                    <asp:ImageButton ID="ImageButton1" runat="server" src="media/Murmurio.gif" OnClientClick="ChamaUsuario()" />
+                   <%-- <asp:ImageButton ID="Logo" runat="server" src="media/Murmurio.gif" OnClientClick="ChamaUsuario()" />--%>
+                <p id="video-controls" class="black-50">
+                    <a href="#" class="tubular-play"><b>></b></a> &nbsp;&nbsp; <a href="#" class="tubular-pause">
+                        <b>||</b></a> &nbsp;&nbsp; <a href="#" class="tubular-volume-up">+</a> &nbsp;&nbsp;
+                    <a href="#" class="tubular-volume-down">-</a> &nbsp;&nbsp; <a href="#" class="tubular-mute">
+                        M</a>
+                </p>
+            </div>
+            <!--LEFT-------------------------------------------------------------------------------------------------------------------------->
+            <div id="main" >
+                <div id="info" class="black-35">
+                    <h4 id="cantor">
+                        - <em id="faixa">- </em>
+                    </h4>
+                </div>
+                <div id="ConteudoPrincipal" class="default" runat="server" align="left" >
+                    <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+                        <ContentTemplate>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                            </asp:ContentPlaceHolder>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+                <%--                <div id="telaPrincipal" class="black-35">
+                    <asp:TextBox ID="TextBox1" runat="server" BackColor="Transparent" AutoPostBack="True"
+                        ForeColor="White" Height="67px" TextMode="MultiLine" Width="313px"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="Entrar" BackColor="Transparent" ForeColor="White"
+                        OnClientClick="myFunction()" />
+                </div>--%>
+            </div>
+            <!-- RIGHT -------------------------------------------------------------------------------------------------------------------------->
+            <div id="sidebar">
+            </div>
+            <!--MIDDLE-------------------------------------------------------------------------------------------------------------------------->
+            <div id="sidebar2">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

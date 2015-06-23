@@ -1,0 +1,4 @@
+C:\PROJETOS\Murmurio\Murmurio.Modelo\bin\Murmurio.Modelo.dll
+C:\PROJETOS\Murmurio\Murmurio.Modelo\bin\Murmurio.Modelo.pdb
+C:\PROJETOS\Murmurio\Murmurio.Modelo\obj\Debug\Murmurio.Modelo.dll
+C:\PROJETOS\Murmurio\Murmurio.Modelo\obj\Debug\Murmurio.Modelo.pdb
